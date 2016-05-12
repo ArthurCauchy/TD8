@@ -1,7 +1,7 @@
 package fr.univamu.iut.test;
 
 public class RomanToNumeral {
-	public static int processDecimal(int decimal, int lastNumber, int lastDecimal) {
+	private static int processDecimal(int decimal, int lastNumber, int lastDecimal) {
         if (lastNumber > decimal) {
             return lastDecimal - decimal;
         } else {

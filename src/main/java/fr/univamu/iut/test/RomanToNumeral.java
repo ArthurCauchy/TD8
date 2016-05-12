@@ -9,7 +9,7 @@ public class RomanToNumeral {
         }
     }
 	
-	public int getNumeral(String romanNumer) {
+	public static int getNumeral(String romanNumer) {
 		int decimal = 0;
         int lastNumber = 0;
         String romanNumeral = romanNumer.toUpperCase();

@@ -1,4 +1,4 @@
-package fr.univamu.iut.test;
+package fr.univamu.iut.test;//Franchement ça marche super bien git!!
 
 public class RomanToNumeral {
 	public static int processDecimal(int decimal, int lastNumber, int lastDecimal) {
